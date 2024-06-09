@@ -8,35 +8,131 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Fairley</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Resume</a>
-              </li>
-            </ul>
+  <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success-subtle">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1>Fairley</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactMe">Contact Me</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    <header></header>
+        </nav>
+    </header>
     <main>
         <container>
-            <div>
-    
+            <div id="aboutMe" class="col-md-4">
+              <h3>About Me</h3>
+              <p>Pleasure to meet you. My name is Vincent and I'm an aspiring full-stack developer with
+                passion for web creation. Always building and growing, I'm hardening my foundation in both front-end and back-end technologies
+                with a focus on React. I've enjoyed tackling complex probles and am excited to continue expanding
+                my knowledge of web technologies and techniques that will bring my web creation to the next level.
+              </p>
+              <p>
+                  My web developing journey started a little over 1 year ago when I drifted away from the IT side of 
+                  the tech field and fell in love with web development. After getting certified in the basics of python, I
+                  took my knowledge of object oriented languages and dove into HTML, CSS, and Javascript hungrily devouring any and everything
+                  that had to do with web development and getting into the field. 
+              </p>
+              <p>
+                Now, a year later, I've amassed a few languages and frameworks that I'm proficient in including... 
+              </p>
+              <div class="card-group">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Front-End</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item">jQuery</li>
+                  </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Back-End</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Node.js</li>
+                    <li class="list-group-item">Express</li>
+                    <li class="list-group-item">Python</li>
+                  </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Databases</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">MongoDB</li>
+                    <li class="list-group-item">MySql</li>
+                    <li class="list-group-item">Sequelize (ORM)</li>
+                  </ul>
+                </div>
+              </div>
+              <br>
+              <p>These languages and frameworks are only the start of my coding journey. I look forward to alway learning and growing. </p>
+              
+            <div id="work">
+              <h3>Projects</h3>
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="..." class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <div id="contactMe">
+              
             </div>
         </container>
     </main>
