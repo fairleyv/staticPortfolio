@@ -33,8 +33,11 @@
     </header>
     <main>
         <container>
-            <div id="aboutMe" class="col-md-4">
+          <div class="row section" id="aboutMe>
+            <div class="col-auto section-header">
               <h3>About Me</h3>
+            </div>
+            <div class="col section-content">
               <p>Pleasure to meet you. My name is Vincent and I'm an aspiring full-stack developer with
                 passion for web creation. Always building and growing, I'm hardening my foundation in both front-end and back-end technologies
                 with a focus on React. I've enjoyed tackling complex probles and am excited to continue expanding
@@ -86,56 +89,91 @@
               <br>
               <p>These languages and frameworks are only the start of my coding journey. I look forward to alway learning and growing. </p>
               
-            <div id="work">
-              <h3>Projects</h3>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="..." class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            <div id="contactMe">
-              
             </div>
-        </container>
-    </main>
-    <footer></footer>
+          </div>
+            <div class="row section" id="work">
+              <div class="col-auto section-header">
+                <h3>Projects</h3>
+              </div>
+              <div class="col section-content">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets\images\Exercise4Me.png" class="img-fluid rounded-start" alt="The Exercise2Me homepage">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Exercise4Me</h5>
+                        <p class="card-text">A React based web application for finding and creating your workout routine.</p>
+                        <a href="https://github.com/fairleyv/Exercise2Me" class="card-link">Github</a>                         
+                        <a href="https://exercise2me.onrender.com" class="card-link">Check It Out</a>  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+    
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets\images\Music2Me.png" class="card-img-top" alt="The lyrics page for 'I bet on losing dogs' by Mitski">
+                      <div class="card-body">
+                        <h5 class="card-title">Music2Me</h5>
+                        <p class="card-text">A web application for looking up the lyrics to your favorite songs and saving notes about what they mean to you.</p>
+                        <a href="https://github.com/fairleyv/Music2Me" class="card-link">Github</a>      
+                        <a href="https://fairleyv.github.io/Music2Me/" class="card-link">Check It Out</a>                          
+                  
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">SocialMediaMongo</h5>
+                        <p class="card-text">The Back-end for a thought driven social media site utilizing MongoDB and Mongoose</p>
+                        <a href="https://github.com/fairleyv/SocialMediaMongo" class="card-link">GitHub</a>                          
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Ecommerce Back End</h5>
+                        <p class="card-text">A back-end application using REST API and SQL</p>
+                        <a href="https://github.com/fairleyv/EcommerceBackEnd" class="card-link">Github</a>                          
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets\images\Weather Application.png" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Weather Application</h5>
+                        <p class="card-text">A weather web application that takes the name of a city and finds the weather for the current and next 5 days.</p>
+                        <a href="https://github.com/fairleyv/weatherApplication" class="card-link">Github</a> 
+                        <a href="https://fairleyv.github.io/weatherApplication/" class="card-link">Check It Out</a>                          
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </container>
+                </main>             
+                  <footer>
+                    <div class="row section" id="contactMe">
+                      <div class="col-auto section-header">
+                        <h3>Contact Me</h3>
+                      </div>
+                      <div class="col section-content">
+                        <p>fairleyvincent@gmail.com</p>
+                        <a href="https://github.com/fairleyv">
+                          <p>GitHub</p>
+                        </a>
+                      </div>
+                    </div>
+                  </footer>
 </body>
 </html>
