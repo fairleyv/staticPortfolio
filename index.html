@@ -3,20 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link ref="stylesheet" href="assets\bootstrap.css">
-    <script src="assets/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets\bootstrap\css\bootstrap.css">
+    <script src="assets\bootstrap\js\bootstrap.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <nav></nav>
-    <header></header>
+  <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success-subtle">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1>Fairley</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactMe">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
     <main>
         <container>
-            <div>
-    
+          <div class="row section" id="aboutMe>
+            <div class="col-auto section-header">
+              <h3>About Me</h3>
             </div>
-        </container>
-    </main>
-    <footer></footer>
+            <div class="col section-content">
+              <p>Pleasure to meet you. My name is Vincent and I'm an aspiring full-stack developer with
+                passion for web creation. Always building and growing, I'm hardening my foundation in both front-end and back-end technologies
+                with a focus on React. I've enjoyed tackling complex probles and am excited to continue expanding
+                my knowledge of web technologies and techniques that will bring my web creation to the next level.
+              </p>
+              <p>
+                  My web developing journey started a little over 1 year ago when I drifted away from the IT side of 
+                  the tech field and fell in love with web development. After getting certified in the basics of python, I
+                  took my knowledge of object oriented languages and dove into HTML, CSS, and Javascript hungrily devouring any and everything
+                  that had to do with web development and getting into the field. 
+              </p>
+              <p>
+                Now, a year later, I've amassed a few languages and frameworks that I'm proficient in including... 
+              </p>
+              <div class="card-group">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Front-End</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item">jQuery</li>
+                  </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Back-End</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Node.js</li>
+                    <li class="list-group-item">Express</li>
+                    <li class="list-group-item">Python</li>
+                  </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Databases</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">MongoDB</li>
+                    <li class="list-group-item">MySql</li>
+                    <li class="list-group-item">Sequelize (ORM)</li>
+                  </ul>
+                </div>
+              </div>
+              <br>
+              <p>These languages and frameworks are only the start of my coding journey. I look forward to alway learning and growing. </p>
+              
+            </div>
+          </div>
+            <div class="row section" id="work">
+              <div class="col-auto section-header">
+                <h3>Projects</h3>
+              </div>
+              <div class="col section-content">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets\images\Exercise4Me.png" class="img-fluid rounded-start" alt="The Exercise2Me homepage">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Exercise4Me</h5>
+                        <p class="card-text">A React based web application for finding and creating your workout routine.</p>
+                        <a href="https://github.com/fairleyv/Exercise2Me" class="card-link">Github</a>                         
+                        <a href="https://exercise2me.onrender.com" class="card-link">Check It Out</a>  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+    
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets\images\Music2Me.png" class="card-img-top" alt="The lyrics page for 'I bet on losing dogs' by Mitski">
+                      <div class="card-body">
+                        <h5 class="card-title">Music2Me</h5>
+                        <p class="card-text">A web application for looking up the lyrics to your favorite songs and saving notes about what they mean to you.</p>
+                        <a href="https://github.com/fairleyv/Music2Me" class="card-link">Github</a>      
+                        <a href="https://fairleyv.github.io/Music2Me/" class="card-link">Check It Out</a>                          
+                  
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">SocialMediaMongo</h5>
+                        <p class="card-text">The Back-end for a thought driven social media site utilizing MongoDB and Mongoose</p>
+                        <a href="https://github.com/fairleyv/SocialMediaMongo" class="card-link">GitHub</a>                          
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Ecommerce Back End</h5>
+                        <p class="card-text">A back-end application using REST API and SQL</p>
+                        <a href="https://github.com/fairleyv/EcommerceBackEnd" class="card-link">Github</a>                          
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets\images\Weather Application.png" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Weather Application</h5>
+                        <p class="card-text">A weather web application that takes the name of a city and finds the weather for the current and next 5 days.</p>
+                        <a href="https://github.com/fairleyv/weatherApplication" class="card-link">Github</a> 
+                        <a href="https://fairleyv.github.io/weatherApplication/" class="card-link">Check It Out</a>                          
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </container>
+                </main>             
+                  <footer>
+                    <div class="row section" id="contactMe">
+                      <div class="col-auto section-header">
+                        <h3>Contact Me</h3>
+                      </div>
+                      <div class="col section-content">
+                        <p>fairleyvincent@gmail.com</p>
+                        <a href="https://github.com/fairleyv">
+                          <p>GitHub</p>
+                        </a>
+                      </div>
+                    </div>
+                  </footer>
 </body>
 </html>
